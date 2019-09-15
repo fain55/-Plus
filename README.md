@@ -3,6 +3,7 @@ file_path=input('the filename is')          #文件无空格(包括多行)
 file_path=file_path
 
 with open(file_path) as file_object:
+    
     contents=file_object.read()
     contents=contents.rstrip()
 
